@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_webview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Webview" />
+
+        <TextView
+            android:id="@+id/tv_animation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Animation" />
+
+        <TextView
+            android:id="@+id/tv_bottom_sheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Bottom Sheet" />
+
+        <TextView
+            android:id="@+id/tv_download_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Download File" />
+
+        <TextView
+            android:id="@+id/tv_expandable_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Expandable List View" />
+
+        <TextView
+            android:id="@+id/tv_intro_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Intro Slider" />
+
+        <TextView
+            android:id="@+id/tv_retrofit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Retro Hit" />
+
+        <TextView
+            android:id="@+id/tv_speech_to_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Speech To Text" />
+
+        <TextView
+            android:id="@+id/tv_volley_gson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Volley GSon" />
+
+        <TextView
+            android:id="@+id/tv_forground_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Foreground Service" />
+
+        <TextView
+            android:id="@+id/tv_FreeFallService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Free Fall Service" />
+
+        <TextView
+            android:id="@+id/tv_MyJobIntentServiceActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="My Job Intent Service Activity" />
+
+        <TextView
+            android:id="@+id/tv_JobServiceActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Job Service Activity" />
+
+        <TextView
+            android:id="@+id/tv_create_pdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Create pdf" />
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/grey"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/tv_kot_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Kotlin Recycler" />
+
+        <TextView
+            android:id="@+id/tv_kot_sqlite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Kotlin SQLite" />
+
+        <TextView
+            android:id="@+id/tv_kot_retroHit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Kotlin SQLite" />
+
+        <TextView
+            android:id="@+id/tv_kot_add_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Map Marker" />
+
+        <TextView
+            android:id="@+id/tv_kot_places"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Places" />
+
+        <TextView
+            android:id="@+id/tv_collapsing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Collapsing Toolbar" />
+
+    </LinearLayout>
+
+</ScrollView>
